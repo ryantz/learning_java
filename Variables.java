@@ -2,7 +2,7 @@ public class Variables{
     public static void main(String[] args){
         int age = 3;
         double amount = 50.5;
-        char name = 'c';
+        char name = 'c'; //single quotes
         char exclaim = '!';
         boolean outcome;
 

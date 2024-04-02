@@ -1,6 +1,7 @@
 public class Strings{
     public static void main(String[] args){
         //ways to declare a string
+        //notice double quotes and not single quotes like char
         String str = "hello this is a string";
         String str2 = new String("hello this is also a string");
 
