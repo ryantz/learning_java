@@ -1,12 +1,13 @@
 public class Bank{
+    //instance
     double balance;
 
+    //constructor
     public Bank(double userBalance){
         balance = userBalance;
     }
 
     //reassigning instance fields
-
     public void withdrawAmount(double withdrawal){
         double updatedBalance = balance - withdrawal;
         balance = updatedBalance; //reassign
