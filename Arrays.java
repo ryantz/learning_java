@@ -3,6 +3,10 @@ public class Arrays {
     public static void main(String[] args){
         //initializing an array
         double[] price = {13.1, 3.1, 30.9, 20.4};
+
+        //changing values in an array
+        price[3] = 20.44;
+        System.out.println(price[3]);
         
         //creating an empty array
         String[] newitems = new String[5];
