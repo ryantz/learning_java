@@ -5,13 +5,13 @@ public class BankPrivPub{
     //allowing other classes to reset value stored in private variables: setter methods (mutator)
 
     private CheckingAccountPrivPub acc1;
-    private CheckingAccountPrivPub acc2;
+    //private CheckingAccountPrivPub acc2;
 
     //constructor
     public BankPrivPub(){
         //new bank created will have these accounts in them
         acc1 = new CheckingAccountPrivPub("Bran", 10000);
-        acc2 = new CheckingAccountPrivPub("Jam", 200);
+        //acc2 = new CheckingAccountPrivPub("Jam", 200);
     }
 
     public static void main(String[] args){
